@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Gilroy-Bold ☞';
+    font-style: normal;
+    src: local('Gilroy-Bold ☞'), url('../fonts/Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    src: local('Gilroy-Medium ☞'), url('../fonts/Gilroy-Medium.woff') format('woff');
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Gilroy-Bold ☞";
+    overflow-x: hidden;
+}
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 767px;
+        margin: 0 auto;
+        padding: 0 27.75px;
+    }
+
+    .nav-menu__links {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .nav-menu__item {
+        list-style: none;
+        font-size: 34px;
+        line-height: 42px;
+        padding-top: 68px;
+    }
+
+    .nav-menu__link {
+        color: #828282;
+        text-decoration: none;
+    }
+
+    .nav-menu__link:hover {
+        color: #090909;
+    }
+
+    .header__description__name {
+        font-size: 47px;
+        line-height: 58px;
+        color: #000000;
+        margin-top: 65px;
+        margin-bottom: 27px;
+    }
+
+    .header__description__short-description {
+        font-family: 'Gilroy-Medium ☞';
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 0;
+        margin-bottom: 37px;
+    }
+
+    .header__description__photo {
+        min-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .about {
+        margin: 83px auto;
+        background: #ebe9e9;
+    }
+
+    .about__about-text {
+        padding: 79px 0;
+    }
+
+    .title {
+        margin: 0 auto;
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .subtitle {
+        margin: 0 auto;
+        padding-top: 40px;
+        font-family: 'Gilroy-Medium ☞';
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1444px;
+        margin: 0 auto;
+        padding: 0 9.3%;
+    }
+
+
+
+
+
+
+    .header__description__photo {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1445px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 252.35px;
+    }
+}
